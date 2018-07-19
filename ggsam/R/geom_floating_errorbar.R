@@ -1,7 +1,3 @@
-library(ggplot2)
-library(proto)
-library(rlang)
-
 #' @export
 #' @rdname geom_linerange
 geom_floating_errorbar <- function(mapping = NULL, data = NULL,
