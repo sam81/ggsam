@@ -1,7 +1,7 @@
 Package: ggsam
 Type: Package
 Title: ggsam: Sam's ggplot2 extensions
-Version: 1.0.4
+Version: 1.0.5
 Date: 2018-07-19
 Author: Samuele Carcagno
 Maintainer: <sam.carcagno@gmail.com>

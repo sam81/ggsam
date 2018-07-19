@@ -34,7 +34,7 @@ df = data.frame(
     
 p = ggplot(df, aes(trt, resp, colour = group))
 p = p + geom_floating_errorbar(aes(ymin = lower, ymax = upper), width = 0.2)
-p
+print(p)
 
 ## Example 2
 library(dplyr)
@@ -56,7 +56,7 @@ p = ggplot(dat, aes(x, y)) + geom_point(position=position_jitter(0.125))
 p = p + geom_midbar(data=summDat, aes(x=x, y=y), width=0.4, size=1.2, color=barColor)
 ## plot the error bars (thinner and narrower)
 p = p + geom_floating_errorbar(data=summDat, aes(x=x, ymin=y-sd_y, ymax=y+sd_y), width=0.25, color=barColor)
-  
+print(p)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
