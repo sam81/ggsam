@@ -20,7 +20,7 @@ geom_floating_errorbar(aes(ymin=lower, ymax=upper))
 %% }
 %\references{ ~put references to the literature/web site here ~ }
 \author{Samuele Carcagno}
-}
+
 %\seealso{ ~~objects to See Also as \code{\link{help}}, ~~~ }
 \examples{
 ## Example 1
@@ -36,7 +36,8 @@ p = ggplot(df, aes(trt, resp, colour = group))
 p = p + geom_floating_errorbar(aes(ymin = lower, ymax = upper), width = 0.2)
 print(p)
 
-## Example 2
+##Example 2
+
 library(dplyr)
 library(grDevices)
 set.seed(123)
