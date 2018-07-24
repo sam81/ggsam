@@ -1,12 +1,12 @@
 Package: ggsam
 Type: Package
 Title: ggsam: Sam's ggplot2 extensions
-Version: 1.0.8
+Version: 1.0.9
 Date: 2018-07-24
 Author: Samuele Carcagno
 Maintainer: <sam.carcagno@gmail.com>
 Depends: ggplot2
 Imports: rlang, ggplot2
-Suggests: grDevices
+Suggests: grDevices, dplyr
 Description: Sam's custom ggplot2 extensions
 License: GPL-3
