@@ -3,6 +3,6 @@
 R CMD build ggsam/
 rm ggsam.pdf
 R CMD Rd2pdf ggsam/
-R CMD check ggsam_1.0.4.tar.gz
+R CMD check ggsam_1.0.5.tar.gz
 
 
