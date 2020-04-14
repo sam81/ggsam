@@ -7,7 +7,9 @@
 }
 
 \usage{
-theme_bwng(base_size = 12, base_family = "", base_line_size = base_size/22, base_rect_size = base_size/22)
+theme_bwng(base_size = 12, base_family = "",
+           base_line_size = base_size/22,
+           base_rect_size = base_size/22)
 }
 
 \arguments{
