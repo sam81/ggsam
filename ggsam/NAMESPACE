@@ -2,4 +2,8 @@ importFrom(rlang, "%||%")
 importFrom(ggplot2, ggproto)
 export(geom_floating_errorbar,
        geom_midbar,
-       theme_bwng)
+       theme_bwng,
+       size0.5c,
+       size1c,
+       size1.5c,
+       size2c)
